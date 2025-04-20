@@ -1,0 +1,36 @@
+/* Custom styling for Todo App */
+
+.todo-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.todo-item {
+    transition: all 0.3s ease;
+}
+
+.todo-item:hover {
+    background-color: #f8f9fa;
+}
+
+.todo-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+} 
